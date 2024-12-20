@@ -63,7 +63,7 @@ Organized data into a star schema with:
   
 <h3>3. Analysis:</h3>
 
-- Business Questions:
+- <b>Business Questions</b>:
   1. What is the average default rate across different income groups and loan types?
   2. How do income and gender affect default rates?
   3. Which combinations of income, age, and occupation are the highest risk?
