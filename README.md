@@ -24,9 +24,6 @@ Key features of the project include:
 <h2>Dataset </h2>
 
 - <b>Source: International Institute of Information Technology Bangalore (Loan Applications Dataset)</b>
-
-  [Visit NBA Data Source](https://www.kaggle.com/datasets/nathanlauga/nba-games)
-
 - <b>Size</b>: 148.7 MB (122 variables and 307,511 observations)
 - <b>Target Variable</b>: Loan repayment behavior (1 = Default, 0 = No Default)
   
