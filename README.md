@@ -44,16 +44,16 @@ This work emphasizes how thoughtful data organization and demographic segmentati
 
 <h3>1. Data Wrangling:</h3>
 
-- Cleaned missing values and replaced them with NULL or DATA NOT AVAILABLE
-- Grouped numerical data into categories:
-  - Income Levels:
-    - ≤ ₹100k: Lower
-    - ₹100k–₹150k: Lower-Middle
-    - ₹150k–₹200k: Upper-Middle
-    - ₹200k: Upper
-  - Age Groups:
-    - 21–30, 31–40, 41–50, 51–60, ≥61
-- Other categories: Loan amounts, annuities, and inquiries to credit bureaus
+  - Cleaned missing values and replaced them with NULL or DATA NOT AVAILABLE
+  - Grouped numerical data into categories:
+    - Income Levels:
+      - ≤ ₹100k: Lower
+      - ₹100k–₹150k: Lower-Middle
+      - ₹150k–₹200k: Upper-Middle
+      - ₹200k: Upper
+    - Age Groups:
+      - 21–30, 31–40, 41–50, 51–60, ≥61
+  - Other categories: Loan amounts, annuities, and inquiries to credit bureaus
   
 <h3>2. Dimensional Modeling:</h3>
 
