@@ -8,7 +8,7 @@ This project investigates loan default risk by analyzing over 307,000 loan appli
 This work emphasizes how thoughtful data organization and demographic segmentation can help reduce default risks and guide smarter lending decisions.
 
 
-##Project Objectives##
+<h2>Project Objectives</h2>h2>
 - Predict the likelihood of default using demographic and financial variables
 - Segment customers by income, age, and occupation to identify high-risk groups
 - Build a dimensional data model (star schema) to support scalable analysis
@@ -29,7 +29,7 @@ This work emphasizes how thoughtful data organization and demographic segmentati
   - cnt_children, amt_annuity, occupation_type
  
 
-##Tools & Technologies##
+<h2>Tools & Technologies</h2>h2>
 
 | Tool | Purpose |
 |------|---------|
