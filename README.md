@@ -2,13 +2,13 @@
 
 
 
-##Executive Summary
+##Executive Summary##
 This project investigates loan default risk by analyzing over 307,000 loan applications from India. Using SQL-based dimensional modeling and Python-driven exploratory analysis, I identified patterns across income levels, loan types, age groups, and occupations. The goal was to uncover high-risk borrower segments and support data-driven credit strategies.
 
 This work emphasizes how thoughtful data organization and demographic segmentation can help reduce default risks and guide smarter lending decisions.
 
 
-##Project Objectives
+##Project Objectives##
 - Predict the likelihood of default using demographic and financial variables
 - Segment customers by income, age, and occupation to identify high-risk groups
 - Build a dimensional data model (star schema) to support scalable analysis
