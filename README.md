@@ -2,7 +2,7 @@
 
 
 
-##Executive Summary##
+<h2>Executive Summary</h2>
 This project investigates loan default risk by analyzing over 307,000 loan applications from India. Using SQL-based dimensional modeling and Python-driven exploratory analysis, I identified patterns across income levels, loan types, age groups, and occupations. The goal was to uncover high-risk borrower segments and support data-driven credit strategies.
 
 This work emphasizes how thoughtful data organization and demographic segmentation can help reduce default risks and guide smarter lending decisions.
