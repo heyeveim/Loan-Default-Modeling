@@ -118,18 +118,22 @@ Organized data into a star schema with:
      - Implement machine learning for more robust predictions.
 3. <b>Expanded Analysis</b>:
      - Explore regional differences or time trends in defaults.
+  
+       
+## Why This Project Matters to Employers
 
+- Demonstrates ability to organize and model complex, high-dimensional data  
+- Shows business-oriented thinking by translating insights into segmentation strategies
+- Applies data storytelling to real-world financial risk problems
+- Highlights cross-functional value (useful to credit, risk, and product teams)
+
+  
 <h2>Conclusion</h2>
 
 This project demonstrates the power of dimensional modeling and data analysis in understanding loan default risks. The findings provide actionable insights for lenders to minimize risks and offer tailored loan products to customers. 
 
-## Why This Project Matters to Employers
 
-- 💡 Demonstrates ability to organize and model complex, high-dimensional data  
-- 📊 Shows business-oriented thinking by translating insights into segmentation strategies  
-- ⚙️ Applies data storytelling to real-world financial risk problems  
-- 🔍 Highlights cross-functional value (useful to credit, risk, and product teams)
-- 
+
 <!-- 
  ```diff
 - text in red
