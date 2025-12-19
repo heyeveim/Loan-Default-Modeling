@@ -199,9 +199,7 @@ Organized data into a star schema with:
 <h2>Final thought</h2>
 
 I don’t see data as something to impress with.
-I see it as something teams have to live with, maintain, and rely on when things go wrong.
-
-This project reflects how I think when I’m responsible for that trust.
+I see it as something teams have to live with, maintain, and rely on when things go wrong. This project reflects how I think when I’m responsible for that trust.
 
 
 
