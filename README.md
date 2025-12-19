@@ -81,9 +81,7 @@ High dimensionality tempted shortcuts.
 
 I caught myself more than once chasing patterns that disappeared after one more validation step. That was the reminder that **clarity beats cleverness** in risk work.
 
-What helped was slowing down and asking:
-
- > “If someone had to maintain this tomorrow, would this still make sense?”
+What helped was slowing down and asking:   > “If someone had to maintain this tomorrow, would this still make sense?”
 
 That question guided most of my decisions.
 
