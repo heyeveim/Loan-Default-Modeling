@@ -62,7 +62,7 @@ Out of 122 features, I narrowed the analysis to 19 that consistently mattered ac
 Not because the others were useless, but because they didn’t help explain risk in a stable, repeatable way.
 
 
-<h2> What surfaced once the noise was gone</h2>h2>
+<h2> What surfaced once the noise was gone</h2>
 
 A few findings stood out once the data was structured and validated:
   - Cash loans showed materially higher default rates than revolving loans
