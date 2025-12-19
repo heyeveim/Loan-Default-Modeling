@@ -198,7 +198,7 @@ Organized data into a star schema with:
 ## Why This Project Matters to Employers
 
   
-<h2>Final thoughtFh2>
+<h2>Final thought</h2>
 
 I don’t see data as something to impress with.
 I see it as something teams have to live with, maintain, and rely on when things go wrong.
