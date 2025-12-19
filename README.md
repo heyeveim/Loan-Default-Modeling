@@ -1,6 +1,6 @@
 <h1>🏦 Loan Default Rate Prediction & Segmentation</h1>
 
-**Turning messy credit data into decisions you can actually trust** 
+<h3>Turning messy credit data into decisions you can actually trust<h3>
 
 <h2>Why I built this</h2>
 
@@ -20,15 +20,27 @@ This project started there.
 I worked with 307,000+ loan applications where only about 8 percent actually defaulted.
 That imbalance alone makes it tempting to overfit, oversimplify, or chase surface level patterns.
 
+
+- Source: IIIT Bangalore Loan Applications Dataset
+- Size: 307,511 rows × 122 columns (148.7MB)
+- Target: loan_default (1 = Default, 0 = No Default)
+
+- Key Features:
+  - amt_income_total (Client income)
+  - amt_credit (Loan amount)
+  - days_birth (Age in days)
+  - name_contract_type (Cash vs Revolving loan)
+  - cnt_children, amt_annuity, occupation_type
+ 
+
+
 But the bigger challenge showed up earlier:
 
-- Income, age, occupation, and loan types existed, but not in a form that was easy to reason about
+  - Income, age, occupation, and loan types existed, but not in a form that was easy to reason about
+  - 120+ features looked impressive, but many told the same story in slightly different ways
+  - Aggregates hid risk pockets that only appeared when variables interacted
 
-- 120+ features looked impressive, but many told the same story in slightly different ways
-
-- Aggregates hid risk pockets that only appeared when variables interacted
-
-- Before predicting anything, I needed to make the system readable.
+Before predicting anything, I needed to make the system readable.
 
 
 <h2> How I approached it (and why) </h2>
@@ -52,17 +64,6 @@ That led me to segment deliberately instead of globally.
 Out of 122 features, I narrowed the analysis to 19 that consistently mattered across segments.
 Not because the others were useless, but because they didn’t help explain risk in a stable, repeatable way.
 
-
-- Source: IIIT Bangalore Loan Applications Dataset
-- Size: 307,511 rows × 122 columns (148.7MB)
-- Target: loan_default (1 = Default, 0 = No Default)
-
-- Key Features:
-  - amt_income_total (Client income)
-  - amt_credit (Loan amount)
-  - days_birth (Age in days)
-  - name_contract_type (Cash vs Revolving loan)
-  - cnt_children, amt_annuity, occupation_type
  
 
 <h2>Tools & Technologies</h2>
