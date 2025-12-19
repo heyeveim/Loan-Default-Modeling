@@ -8,7 +8,7 @@ What I kept running into instead was a quieter problem: **the data itself was me
 
 I wanted to answer a more practical question first.
 
-If a credit team had to make decisions tomorrow, which parts of this data could they actually rely on?
+`If a credit team had to make decisions tomorrow, which parts of this data could they actually rely on?`
 
 This project started there.
 
