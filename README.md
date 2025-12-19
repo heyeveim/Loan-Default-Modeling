@@ -194,8 +194,6 @@ Organized data into a star schema with:
 3. <b>Expanded Analysis</b>:
      - Explore regional differences or time trends in defaults.
   
-       
-## Why This Project Matters to Employers
 
   
 <h2>Final thought</h2>
