@@ -74,7 +74,7 @@ None of these were surprising on their own.
 What mattered was **how consistently they held once the data stopped fighting back.**
 
 
-<h2>Where I struggled (and what I learned</h2>
+<h2>Where I struggled (and what I learned)</h2>
 
 Class imbalance forced tradeoffs.
 High dimensionality tempted shortcuts.
