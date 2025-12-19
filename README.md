@@ -15,15 +15,43 @@ This project started there.
 
 
 
+<h2>The problem I was trying to solve</h2>
 
-<h2>Project Objectives</h2>
-- Predict the likelihood of default using demographic and financial variables
-- Segment customers by income, age, and occupation to identify high-risk groups
-- Build a dimensional data model (star schema) to support scalable analysis
-- Address class imbalance and reduce dimensionality for interpretable insights
+I worked with 307,000+ loan applications where only about 8 percent actually defaulted.
+That imbalance alone makes it tempting to overfit, oversimplify, or chase surface level patterns.
+
+But the bigger challenge showed up earlier:
+
+- Income, age, occupation, and loan types existed, but not in a form that was easy to reason about
+
+- 120+ features looked impressive, but many told the same story in slightly different ways
+
+- Aggregates hid risk pockets that only appeared when variables interacted
+
+- Before predicting anything, I needed to make the system readable.
 
 
-<h2> Dataset Overview</h2>
+<h2> How I approached it (and why) </h2>
+
+
+I treated this less like a modeling task and more like an application support problem for data.
+
+**First, structure came before insight.**
+I built a SQL-based star schema so that demographics, loan details, and credit inquiries each had a clear role. This made it easier to ask focused questions without re-cleaning the data every time.
+
+**Second, I questioned defaults instead of accepting them.**
+When default rates differed by gender or loan type, I stopped and asked:
+
+- Is this a real signal?
+
+- Or is it an artifact of income distribution, age mix, or occupation clustering?
+
+That led me to segment deliberately instead of globally.
+
+**Third, I reduced complexity on purpose.**
+Out of 122 features, I narrowed the analysis to 19 that consistently mattered across segments.
+Not because the others were useless, but because they didn’t help explain risk in a stable, repeatable way.
+
 
 - Source: IIIT Bangalore Loan Applications Dataset
 - Size: 307,511 rows × 122 columns (148.7MB)
