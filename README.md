@@ -20,6 +20,8 @@ I worked with 307,000+ loan applications where only about 8 percent actually def
 That imbalance alone makes it tempting to overfit, oversimplify, or chase surface level patterns.
 
 
+
+
 - Source: IIIT Bangalore Loan Applications Dataset
 - Size: 307,511 rows × 122 columns (148.7MB)
 - Target: loan_default (1 = Default, 0 = No Default)
