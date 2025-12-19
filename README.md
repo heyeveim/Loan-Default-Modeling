@@ -1,11 +1,19 @@
-<h1>🏦 Loan Default Rate Prediction and Segmentation Analysis</h1>
+<h1>🏦 Loan Default Rate Prediction & Segmentation</h1>
+
+**Turning messy credit data into decisions you can actually trust** 
+
+<h2>Why I built this</h2>
+
+When people talk about loan default models, they often jump straight to accuracy or algorithms.
+What I kept running into instead was a quieter problem: **the data itself was messy, inconsistent, and easy to misread.**
+
+I wanted to answer a more practical question first.
+
+If a credit team had to make decisions tomorrow, which parts of this data could they actually rely on?
+
+This project started there.
 
 
-
-<h2>Executive Summary</h2>
-This project investigates loan default risk by analyzing over 307,000 loan applications from India. Using SQL-based dimensional modeling and Python-driven exploratory analysis, I identified patterns across income levels, loan types, age groups, and occupations. The goal was to uncover high-risk borrower segments and support data-driven credit strategies.
-
-This work emphasizes how thoughtful data organization and demographic segmentation can help reduce default risks and guide smarter lending decisions.
 
 
 <h2>Project Objectives</h2>
