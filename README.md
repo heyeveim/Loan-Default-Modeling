@@ -53,7 +53,6 @@ I built a SQL-based star schema so that demographics, loan details, and credit i
 When default rates differed by gender or loan type, I stopped and asked:
 
 - Is this a real signal?
-
 - Or is it an artifact of income distribution, age mix, or occupation clustering?
 
 That led me to segment deliberately instead of globally.
