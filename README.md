@@ -1,5 +1,4 @@
 <h1>🏦 Loan Default Rate Prediction & Segmentation</h1>
-
 <h3>Turning messy credit data into decisions you can actually trust<h3>
 
 <h2>Why I built this</h2>
